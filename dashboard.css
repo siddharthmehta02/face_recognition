@@ -1,0 +1,48 @@
+body{
+  background-color: #AED3F8;
+}
+img{
+  padding-top: 10px;
+  width:400px !important;
+  height:500px;
+}
+
+.image{
+  text-align: center;
+  width: 450px;
+  margin-left: 40%;
+  border-style: solid;
+}
+
+.upload{
+  margin-left: 47%;
+  padding-bottom: 10px;
+}
+
+button{
+  color: black;
+  background-color:  lightblue;
+  border-radius: 8px;
+  width: 100px;
+  height:40px;
+}
+
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
